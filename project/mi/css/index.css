@@ -4,6 +4,31 @@
 * @Last Modified by:   TomChen
 * @Last Modified time: 2018-11-15 20:47:50
 */
-ul li{
+/*顶部浮动导航*/
+header{
+	width: 100%;
+	height: 40px;
+	background: purple;
+}
+.head-navigation{
+	float: left;
+	width: 380px;
+	height: 40px;
 	background: red;
+}
+.head-register{
+	float: right;
+	width: 180px;
+	height: 40px;
+	background: blue;
+}
+.chearfix:after{
+			content: "";
+			clear: both;
+			display: block;
+			height: 0px;
+			visibility: hidden;
+}
+.clearfix{
+			*zoom:1;
 }
