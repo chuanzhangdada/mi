@@ -825,10 +825,143 @@
 	color: #b0b0b0;
 }
 .footer{
-	height: 277px;
-	background: red;
+	background: #fff;
+}
+.footer .service{
+	padding: 27px 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+.footer .service-item{
+	float: left;
+	width: 20%;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border-right: 1px solid #e0e0e0;
+	box-sizing: border-box;
+}
+.footer .service-item:last-child{
+	border-right: none;
+}
+.footer .service-item a{
+	font-size: 16px;
+	color: #656565;
+}
+.footer .service-item a:hover{
+	color: #ff6700;
+}
+.footer .service-item a i{
+	font-size: 24px;
+	vertical-align: -4px;
+	margin-right: 6px;
+}
+.footer .links{
+	padding: 40px 0;
+}
+.footer .link-item{
+	float: left;
+	width: 160px;
+	height: 112px;
+}
+.footer .link-item dt{
+	margin-bottom: 26px;
+	font-size: 14px;
+	color: #424242;
+}
+.footer .link-item dd{
+	margin-bottom: 6px;
+}
+.footer .link-item a{
+	color: #757575;
+}
+.footer .link-item dd a:hover{
+	color: #ff6700;
+}
+.footer .link-contact{
+	float: right;
+	width: 246px;
+	height: 112px;
+	margin-left: 10px;
+	border-left: 1px solid #e0e0e0;
+	text-align: center;
+}
+.footer .link-contact .phone{
+	font-size: 18px;
+	color: #ff6700;
+	font-weight: bold;
+}
+.footer .link-contact .work-time,
+.footer .link-contact .desc{
+	font-size: 12px;
+	color: #616161;
+}
+.footer .link-contact .desc{
+	margin-bottom: 18px;
+}
+.footer .link-contact a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #ff6700;
+	color: #ff6700;
+	transition: background-color 0.5s;
+}
+.footer .link-contact a i{
+	vertical-align: -1px;
+	margin-right: 2px;
+}
+.footer .link-contact a:hover{
+	background: #ff6700;
+	color: #fff;
 }
 .end{
-	height: 148px;
-	background: purple;
+	padding: 30px 0;
+	background: #f5f5f5;
+}
+.end .logo{
+	float: left;
+	width: 57px;
+	height: 57px;
+	margin-right: 10px;
+	background-color: #ff6700;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.end .info .site{
+	float: left;
+}
+.end .info .site .nav-link a{
+	color: #757575;
+}
+.end .info .site .nav-link a:hover{
+	color: #ff6700;
+}
+.end .info .site .nav-link .sep{
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	background: #b0b0b0;
+	vertical-align: -2px;
+}
+.end .info .site .icp a:hover{
+	color: #ff6700;
+}
+.end .info .site .decare{
+	font-size: 12px;
+	color: #b0b0b0;
+}
+.end .info .links{
+	float: right;
+}
+.end .info .links img{
+	height: 28px;
+}
+.end .slogan{
+	height: 60px;
+	background-image: url(../images/slogan.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
 }
