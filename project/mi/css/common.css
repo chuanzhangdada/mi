@@ -3,7 +3,7 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.chearfix:after{
+.clearfix:after{
 			content: "";
 			clear: both;
 			display: block;
